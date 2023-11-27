@@ -45,5 +45,5 @@ def main(page: ft.Page):
         )
     )
 
-
-ft.app(main)
+# ft.app(target=main) # view locally i.e. mac/windows/linux
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)  # view in browser
