@@ -28,6 +28,11 @@ def main(page: ft.Page):
                 label="Land",
                 selected_icon=ft.icons.LANDSCAPE,
             ),
+            ft.NavigationDrawerDestination(
+                icon_content=ft.Icon(ft.icons.LANDSCAPE_OUTLINED),
+                label="Settings",
+                selected_icon=ft.icons.LANDSCAPE,
+            ),
         ],
     )
 
