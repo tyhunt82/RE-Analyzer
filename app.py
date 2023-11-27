@@ -3,6 +3,7 @@ import pandas as pd
 
 def main(page: ft.Page):
     page.title= "RE-Analyzer"   
+    page.padding = 5
     page.drawer = ft.NavigationDrawer(
         controls=[
             ft.Container(height=12),
